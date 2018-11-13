@@ -16,3 +16,5 @@ And run the built WAR (`cas.war`) in Tomcat on `http://localhost:8080/cas`.
 Use `jleleu`/`jleleu` or `leleuj`/`leleuj` to log in.
 
 Authorized applications match the following pattern: `^http://localhost:.*`.
+
+curl -v -k -X POST --header "Content-Type:text/xml;charset=UTF-8" --data @logout-request.soap "https://localhost:8080/cas/login?client_name=Shibboleth&logoutendpoint=true"
