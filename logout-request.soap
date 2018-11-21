@@ -79,7 +79,7 @@ CtUfZL67og==</ds:X509Certificate>
                </xenc:CipherData>
             </xenc:EncryptedData>
          </saml2:EncryptedID>
-         <saml2p:SessionIndex>_48e55c608e08e35dc8b3afdef0e5ddf7</saml2p:SessionIndex>
+         <saml2p:SessionIndex>_a42e243980a50d2b6b531cfb73c12c34</saml2p:SessionIndex>
       </saml2p:LogoutRequest>
    </soap11:Body>
 </soap11:Envelope>
